@@ -1,0 +1,2 @@
+alter table czasy alter column id_cena set default 5;
+

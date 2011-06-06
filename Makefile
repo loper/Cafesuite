@@ -1,4 +1,4 @@
-PROGRAM=Cafe_v2.4
+PROGRAM=Cafe_v2.5
 
 insert:
 	python inserter.py

@@ -1,0 +1,2 @@
+create table 2011miesiac select * from czasy;
+http://www.plus2net.com/sql_tutorial/sql_copy_table.php

@@ -5,9 +5,9 @@ c = baza.cursor()
 c.execute("SELECT COUNT(*) FROM czasy")
 data=c.fetchall()[0][0]
 
-ver='2.4'
+ver='2.5'
 prog='Cafe_v'+ver+'.jar -i '
-query='java -jar '+prog+str(data)
+query='java -jar '+prog+str(data+1)
 res=os.system(query)
 if res==0:
 	os.system('mysql -uloper -phackme < inserty.sql')
