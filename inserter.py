@@ -1,6 +1,6 @@
 import os
 import MySQLdb
-baza = MySQLdb.connect(host="localhost", user="loper", passwd="hackme", db="Cafesuite")
+baza = MySQLdb.connect(host="localhost", user="loper", passwd="test", db="Cafesuite")
 c = baza.cursor()
 c.execute("SELECT COUNT(*) FROM czasy")
 data=c.fetchall()[0][0]
